@@ -1,0 +1,7 @@
+<div>
+    <ul id="menu">
+        <li *ngFor="let num of numerosRandom">
+            <a [routerLink]="['/tabla', num]">Tabla {{num}} | </a>
+        </li>
+    </ul>
+</div>
